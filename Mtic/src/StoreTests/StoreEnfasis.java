@@ -42,29 +42,12 @@ public class StoreEnfasis {
 	    
 	    enfa.setNombre("Ingenieria de Software");
 	    enfa.setObservaciones("Ninguna");
-	    enfa.setPromocion(listPromo1);
-
+	    enfa.setPromocion(listPromo1);    
 	    
-/*	  for (int i = 0; i < listPromo.size(); i++) {
-		  System.out.println(listPromo.get(i).getId());
-		  System.out.println(listPromo.get(i).getNombre());
-		  System.out.println(listPromo.get(i).getObservaciones());
-	}
-    
-	    
-	    System.out.println(enfa.getId());
-	    System.out.println(enfa.getNombre());
-	    System.out.println(enfa.getObservaciones());
-	    System.out.println(enfa.getPromocion());
-	    
-	    
-*/		    
 	  
 	    
 	
-	    session.persist(enfa);  
-	    
-	      
+	    session.persist(enfa);        
 	    t.commit();  
 	    session.close();  
 	    System.out.println("success"); 
