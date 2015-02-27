@@ -4,16 +4,15 @@
  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
   
  <hibernate-mapping>  
-  <class name="Domain.Profesor" table="Profesor">  
+  <class name="Domain.Alumno" table="Alumno">  
     <id name="id">  
      <generator class="increment"></generator>  
     </id>  
             
-    <property name="nombre"></property>      
-    <property name="apellido"></property>  
-    <property name="email"></property>
-    <property name="telefono"></property>  
-    <property name="observaciones"></property>       
+    <property name="nro_documento"></property>      
+    <property name="nombre"></property>
+    <property name="apellido"></property>
+       
   
   </class>  
             

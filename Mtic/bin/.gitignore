@@ -2,3 +2,10 @@
 /Clase.hbm.xml
 /xml/
 /StoreTests/
+/hibernate.cfg.xml
+/Alumno.hbm.xml
+/Alumno_Asignatura.hbm.xml
+/Asignatura.hbm.xml
+/Enfasis.hbm.xml
+/Profesor.hbm.xml
+/Promocion.hbm.xml

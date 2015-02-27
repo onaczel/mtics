@@ -20,6 +20,7 @@
         <mapping resource="Promocion.hbm.xml"/>
         <mapping resource="Clase.hbm.xml"/>
         <mapping resource="Profesor.hbm.xml"/>
+        <mapping resource="Asignatura.hbm.xml"/>
     
     </session-factory>
     

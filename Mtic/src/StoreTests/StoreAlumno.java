@@ -1,7 +1,9 @@
 package StoreTests;
    
       
-    import org.hibernate.Session;  
+    import java.util.Date;
+
+import org.hibernate.Session;  
 import org.hibernate.SessionFactory;  
 import org.hibernate.Transaction;  
 import org.hibernate.cfg.Configuration;  
@@ -30,6 +32,8 @@ import Domain.Alumno;
         alum.setApellido("Lezcano2");
         alum.setNro_documento(4562);       
         alum.setObservaciones("ninguna");
+        alum.setUsuario_cambio("Admin");
+        alum.setFecha_cambio(new Date());
           
         session.persist(alum);//persisting the object  
           

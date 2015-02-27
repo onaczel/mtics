@@ -12,15 +12,22 @@
     	</id>  
             
     	<property name="nombre"></property>  
-    	<property name="observaciones"></property>  
+    	
   
   	
-  	
-	  	<list name="alumnos" cascade="all">  
+  		<list name="alumnos" cascade="all">  
 	          <key column="promocion_id"></key>  
 	          <index column="type"></index>  
 	          <one-to-many class="Domain.Alumno"/>  
 	    </list> 
+		
+		 <list name="asignaturas" cascade="all">  
+	     	 <key column="promocion_id"></key>  
+	      	 <index column="type"></index>  
+	         <one-to-many class="Domain.Asignatura"/>  
+		 </list>
+	    
+
     
     </class>  
   	

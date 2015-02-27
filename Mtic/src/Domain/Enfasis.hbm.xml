@@ -11,7 +11,7 @@
     </id>  
             
     <property name="nombre"></property>  
-    <property name="observaciones"></property>   
+   
     
 	
     <list name="Promocion" cascade="all">  
